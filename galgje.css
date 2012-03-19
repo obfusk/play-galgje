@@ -1,0 +1,29 @@
+/*  --  */
+
+body, button {
+  font-family       : sans-serif;
+}
+
+#page {
+  text-align        : center;
+}
+
+button {
+  font-size         : 150%;
+}
+
+button, .info {
+  background-color  : #3761A0;
+  color             : white;
+}
+
+.info {
+  margin            : 0 auto;
+  width             : 50%;
+}
+
+#gallows {
+  border            : 1px solid grey;
+}
+
+/*  --  */
