@@ -13,7 +13,7 @@ button {
 }
 
 button, .info {
-  background-color  : #3761A0;
+  background-color  : #0C9DC2;
   color             : white;
 }
 
@@ -24,6 +24,14 @@ button, .info {
 
 #gallows {
   border            : 1px solid grey;
+}
+
+.lost {
+  background-color  : red;
+}
+
+.won {
+  background-color  : green;
 }
 
 /*  --  */
