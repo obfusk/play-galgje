@@ -136,7 +136,7 @@ function giveup_click (e) {                                   //  {{{1
 }                                                             //  }}}1
 
 function body_keypress (e) {                                  //  {{{1
-  var k = e.keyCode;
+  var k = e.which;
 
   if (!   (e.altKey || e.ctrlKey || e.metaKey || e.shiftKey)
       &&  (97 <= k && k <= 122) )   // a-z
