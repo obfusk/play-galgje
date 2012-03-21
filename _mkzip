@@ -1,0 +1,11 @@
+#!/bin/bash
+
+repo=galgje
+date="$( date +%F )"
+file="$repo"_"$date".zip
+
+git archive -o ../"$file" --prefix="$repo"/ HEAD
+cd ..
+zip "$file" "$repo"/jquery.js "$repo"/words.js
+
+# --
